@@ -23,8 +23,8 @@ function broker_post_type() {
 		'attributes'            => __( 'Atributos', 'broker' ),
 		'parent_item_colon'     => __( 'Seccion Padre', 'broker' ),
 		'all_items'             => __( 'Todas Las Secciones', 'broker' ),
-		'add_new_item'          => __( 'Agregar Seccion', 'broker' ),
-		'add_new'               => __( 'Agregar Seccion', 'broker' ),
+		'add_new_item'          => __( 'Agregar Sección', 'broker' ),
+		'add_new'               => __( 'Agregar Sección', 'broker' ),
 		'new_item'              => __( 'Nueva Seccion', 'broker' ),
 		'edit_item'             => __( 'Editar Seccion', 'broker' ),
 		'update_item'           => __( 'Actualizar Seccion', 'broker' ),
@@ -43,6 +43,8 @@ function broker_post_type() {
 		'items_list_navigation' => __( 'Navegación de Secciones', 'broker' ),
 		'filter_items_list'     => __( 'Filtrar Secciones', 'broker' ),
 	);
+
+	
 	$args = array(
 		'label'                 => __( 'Seccion', 'broker' ),
 		'description'           => __( 'Secciones para el Sitio Web', 'broker' ),
@@ -53,7 +55,7 @@ function broker_post_type() {
 		'show_ui'               => true,
 		'show_in_menu'          => true,
         'menu_position'         => 6,
-        'menu_icon'             => 'dashicons-admin-site-alt3',
+        'menu_icon'             => 'dashicons-groups',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
@@ -61,9 +63,9 @@ function broker_post_type() {
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
+		'show_admin_column'          => true,
 	);
 	register_post_type( 'broker_Seccion', $args );
 
 }
-add_action( 'init', 'broker_post_type', 0 );
-?>
+add_action( 'init', 'broker_post_type','my_admin_menu');

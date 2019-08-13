@@ -53,7 +53,7 @@ function brokerstaff_post_type() {
 		'show_ui'               => true,
 		'show_in_menu'          => true,
         'menu_position'         => 6,
-        'menu_icon'             => 'dashicons-admin-users',
+        'menu_icon'             => 'dashicons-buddicons-buddypress-logo',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
@@ -66,4 +66,47 @@ function brokerstaff_post_type() {
 
 }
 add_action( 'init', 'brokerstaff_post_type', 0 );
+
+
+function cptui_register_my_taxes_prueba() {
+
+	/**
+	 * Taxonomy: pruebas.
+	 */
+
+	$labels = array(
+		"name" => __( "pruebas", "PeruBroker" ),
+		"singular_name" => __( "pruebita", "PeruBroker" ),
+		"menu_name" => __( "Probando", "PeruBroker" ),
+		"all_items" => __( "todas las pruebas", "PeruBroker" ),
+		"edit_item" => __( "editiar prueba", "PeruBroker" ),
+		"view_item" => __( "ver prueba", "PeruBroker" ),
+		"update_item" => __( "subir prueba", "PeruBroker" ),
+		"add_new_item" => __( "agregar nueva prueba", "PeruBroker" ),
+		"new_item_name" => __( "nueva prueba", "PeruBroker" ),
+	);
+
+	$args = array(
+		"label" => __( "pruebas", "PeruBroker" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => false,
+		"show_ui" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => false,
+		"rewrite" => array( 'slug' => 'prueba', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "prueba",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "prueba", array( "broker_staff" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_prueba' );
+
+
+
 ?>

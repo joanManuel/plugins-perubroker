@@ -53,7 +53,7 @@ function broker_servicios_post_type() {
 		'show_ui'               => true,
 		'show_in_menu'          => true,
         'menu_position'         => 6,
-        'menu_icon'             => 'dashicons-admin-site-alt3',
+        'menu_icon'             => 'dashicons-editor-kitchensink',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
