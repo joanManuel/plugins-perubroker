@@ -49,7 +49,7 @@ function broker_imagen_post_type() {
 		'label'                 => __( 'Imagen', 'broker-imagen' ),
 		'description'           => __( 'Secciones para el Sitio Web', 'broker-imagen' ),
 		'labels'                => $labels,
-		'supports'              => array( 'thumbnail' ),
+		'supports'              => array( 'title','editor','thumbnail' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
