@@ -35,7 +35,11 @@ define( 'AI1WM_DEBUG', false );
 // ==================
 // = Plugin Version =
 // ==================
+<<<<<<< HEAD
 define( 'AI1WM_VERSION', '7.6' );
+=======
+define( 'AI1WM_VERSION', '7.5' );
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 
 // ===============
 // = Plugin Name =
@@ -277,11 +281,14 @@ define( 'AI1WM_ACTIVE_STYLESHEET', 'stylesheet' );
 // ===================
 define( 'AI1WM_BACKUPS_LABELS', 'ai1wm_backups_labels' );
 
+<<<<<<< HEAD
 // ===============
 // = Sites Links =
 // ===============
 define( 'AI1WM_SITES_LINKS', 'ai1wm_sites_links' );
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 // ============
 // = Cron Key =
 // ============
@@ -546,6 +553,7 @@ if ( ! defined( 'AI1WMIE_PLUGIN_SHORT' ) ) {
 	define( 'AI1WMIE_PLUGIN_SHORT', 'digitalocean' );
 }
 
+<<<<<<< HEAD
 // =============================
 // = Direct Extension Base Dir =
 // =============================
@@ -579,6 +587,8 @@ if ( ! defined( 'AI1WMXE_PLUGIN_SHORT' ) ) {
 	define( 'AI1WMXE_PLUGIN_SHORT', 'direct' );
 }
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 // ==============================
 // = Dropbox Extension Base Dir =
 // ==============================

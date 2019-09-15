@@ -712,6 +712,7 @@ function ai1wm_plugin_filters( $filters = array() ) {
 		$filters[] = 'plugins' . DIRECTORY_SEPARATOR . 'all-in-one-wp-migration-digitalocean-extension';
 	}
 
+<<<<<<< HEAD
 	// Direct Extension
 	if ( defined( 'AI1WMXE_PLUGIN_BASENAME' ) ) {
 		$filters[] = 'plugins' . DIRECTORY_SEPARATOR . dirname( AI1WMXE_PLUGIN_BASENAME );
@@ -719,6 +720,8 @@ function ai1wm_plugin_filters( $filters = array() ) {
 		$filters[] = 'plugins' . DIRECTORY_SEPARATOR . 'all-in-one-wp-migration-direct-extension';
 	}
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 	// Dropbox Extension
 	if ( defined( 'AI1WMDE_PLUGIN_BASENAME' ) ) {
 		$filters[] = 'plugins' . DIRECTORY_SEPARATOR . dirname( AI1WMDE_PLUGIN_BASENAME );
@@ -858,11 +861,14 @@ function ai1wm_active_servmask_plugins( $plugins = array() ) {
 		$plugins[] = AI1WMIE_PLUGIN_BASENAME;
 	}
 
+<<<<<<< HEAD
 	// Direct Extension
 	if ( defined( 'AI1WMXE_PLUGIN_BASENAME' ) ) {
 		$plugins[] = AI1WMXE_PLUGIN_BASENAME;
 	}
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 	// Dropbox Extension
 	if ( defined( 'AI1WMDE_PLUGIN_BASENAME' ) ) {
 		$plugins[] = AI1WMDE_PLUGIN_BASENAME;

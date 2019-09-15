@@ -4,7 +4,11 @@ Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, wordp
 Requires at least: 3.3
 Tested up to: 5.2
 Requires PHP: 5.2.17
+<<<<<<< HEAD
 Stable tag: 7.6
+=======
+Stable tag: 7.5
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -63,7 +67,10 @@ Mobile device compatible: All in One WP Plugin is the first plugin to offer true
 * [pCloud](https://servmask.com/products/pcloud-extension)
 * [WebDAV](https://servmask.com/products/webdav-extension)
 * [S3 Client](https://servmask.com/products/s3-client-extension)
+<<<<<<< HEAD
 * [Direct](https://servmask.com/products/direct-extension)
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 
 = Supported hosting providers =
 **The plugin does not have any dependencies, making it compatible with all PHP hosting providers. We support a vast range of hosting providers. Some of the most popular include:**
@@ -109,11 +116,14 @@ Alternatively you can download the plugin using the download button on this page
 All-in-One WP Migration **asks for your consent** to collect **requester's email address** when filling plugin's contact form. [GDPR Compliant Privacy Policy](https://www.iubenda.com/privacy-policy/946881)
 
 == Changelog ==
+<<<<<<< HEAD
 = 7.6 =
 **Added**
 
 * Direct Extension
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 = 7.5 =
 **Changed**
 

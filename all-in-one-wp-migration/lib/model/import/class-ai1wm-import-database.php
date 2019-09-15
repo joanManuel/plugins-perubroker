@@ -691,9 +691,12 @@ class Ai1wm_Import_Database {
 		// Get backups labels
 		$backups_labels = get_option( AI1WM_BACKUPS_LABELS, array() );
 
+<<<<<<< HEAD
 		// Get sites links
 		$sites_links = get_option( AI1WM_SITES_LINKS, array() );
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 		$old_table_prefixes = array();
 		$new_table_prefixes = array();
 
@@ -824,9 +827,12 @@ class Ai1wm_Import_Database {
 		// Set the new backups labels
 		update_option( AI1WM_BACKUPS_LABELS, $backups_labels );
 
+<<<<<<< HEAD
 		// Set the new sites links
 		update_option( AI1WM_SITES_LINKS, $sites_links );
 
+=======
+>>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 		return $params;
 	}
 }
