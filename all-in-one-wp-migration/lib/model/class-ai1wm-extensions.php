@@ -89,7 +89,6 @@ class Ai1wm_Extensions {
 			);
 		}
 
-<<<<<<< HEAD
 		// Add Direct Extension
 		if ( defined( 'AI1WMXE_PLUGIN_NAME' ) ) {
 			$extensions[ AI1WMXE_PLUGIN_NAME ] = array(
@@ -103,8 +102,6 @@ class Ai1wm_Extensions {
 			);
 		}
 
-=======
->>>>>>> b56fb296e90e0cf3935ad3837fa1ce92bd68dbc6
 		// Add Dropbox Extension
 		if ( defined( 'AI1WMDE_PLUGIN_NAME' ) ) {
 			$extensions[ AI1WMDE_PLUGIN_NAME ] = array(
